@@ -1,35 +1,30 @@
-# -
+# Как запустить проект локально
 
-This template should help get you started developing with Vue 3 in Vite.
+## Требования
 
-## Recommended IDE Setup
+- Node.js: v22.8.0
+- npm: v10.8.2
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Шаги для запуска
 
-## Customize configuration
+1. Клонируйте репозиторий на ваш компьютер:
+   ```
+   git clone https://github.com/Danieldo1/alef-frontend
+   ```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. Перейдите в директорию проекта:
+   ```
+   cd alef-frontend
+   ```
 
-## Project Setup
+3. Установите зависимости:
+   ```
+   npm install
+   ```
 
-```sh
-npm install
-```
+4. Запустите проект в режиме разработки:
+   ```
+   npm run dev
+   ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+5. Перейдите по адресу, указанному в терминале http://localhost:5173.
